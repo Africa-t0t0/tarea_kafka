@@ -1,0 +1,24 @@
+INICIAR ZOOKEEPER
+
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+INICIAR APACHE KAFKA
+
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+List existing topics
+bin/kafka-topics.sh --zookeeper localhost:2181 --list
+
+Purge a topic
+bin/kafka-topics.sh --zookeeper localhost:2181 --alter --topic Orders --config retention.ms=1000
+
+Delete a topic
+bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic Orders
+
+CREATE TOPIC
+
+./bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Resume
+
+CREAR CONSUMIDOR
+
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic Order --from-beginning
