@@ -59,6 +59,10 @@ mail_cocinero
 #Para ver las ordenes realizadas
 En postman, hay que escribir la dirección
 ```
-http://192.168.8.100:5000/producer
+http://192.168.8.100:5000/consumer
 ```
-Y elegir la opción GET
+Y elegir la opción GET. Este método no retorna nada, pero sube las órdenes procesadas al topic Resume. Después es necesario ingresar la dirección:
+```
+http://192.168.8.100:5000/resume
+```
+La cual se encarga de obtener los datos del topic Resume y los envía a los correos indicados.
