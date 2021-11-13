@@ -1,0 +1,1 @@
+{'numero_sopaipillas': 18, 'mail_vendedor': 'geoorgex@gmail.com', 'mail_cocinero': 'jorge.ramirezz@mail.udp.cl'},{'numero_sopaipillas': 3, 'mail_vendedor': 'Tareasdpythonkafka@gmail.com', 'mail_cocinero': 'jorge.ramirezz@mail.udp.cl'}

@@ -1,0 +1,24 @@
+{
+    "Order": [
+        {
+            "mail_cocinero": "jorge.ramirezz@mail.udp.cl",
+            "mail_vendedor": "geoorgex@gmail.com",
+            "numero_sopaipillas": "5"
+        },
+        {
+            "mail_cocinero": "jorge.ramirezz@mail.udp.cl",
+            "mail_vendedor": "geoorgex@gmail.com",
+            "numero_sopaipillas": "5"
+        },
+        {
+            "mail_cocinero": "jorge.ramirezz@mail.udp.cl",
+            "mail_vendedor": "geoorgex@gmail.com",
+            "numero_sopaipillas": "3"
+        },
+        {
+            "mail_cocinero": "jorge.ramirezz@mail.udp.cl",
+            "mail_vendedor": "Tareasdpythonkafka@gmail.com",
+            "numero_sopaipillas": "3"
+        }
+    ]
+}
