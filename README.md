@@ -10,9 +10,7 @@ https://kafka.apache.org/
 Descargar la versión:"kafka-2.6.0-src.tgz"
 
 ##Es necesario instalar unas librerías, tales como
-Kafka-Python
-```
-pip install kafka-python
+
 ```
 Flask
 ```
@@ -24,7 +22,9 @@ pip install flask[async]
 ```
 aiokafka
 ```
-pip install aiokafka
+yagmail
+```
+pip install yagmail
 ```
 
 #Para usarlo
