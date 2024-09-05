@@ -1,15 +1,15 @@
-﻿#Segunda Tarea Sistemas Distribuidos
+﻿# Segunda Tarea Sistemas Distribuidos
 
-#Prerequisitos
+# Prerequisitos
 
-##Instalar Apache Kafka
+## Instalar Apache Kafka
 Descargarlo desde la página oficial
 ```
 https://kafka.apache.org/
 ```
 Descargar la versión:"kafka-2.6.0-src.tgz"
 
-##Es necesario instalar unas librerías, tales como
+## Es necesario instalar unas librerías, tales como
 
 ```
 Flask
@@ -27,21 +27,21 @@ yagmail
 pip install yagmail
 ```
 
-#Para usarlo
+# Para usarlo
 
-##Correr Zoopeeker
+## Correr Zoopeeker
 ```
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 ```
-##Correr Servidor
+## Correr Servidor
 ```
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 ```
-##Correr Programa
+## Correr Programa
 ```
 python app2.py
 ```
-##Para agregar ordenes
+## Para agregar ordenes
 
 En postman, hay que escribir la dirección
 ```
@@ -56,7 +56,7 @@ mail_vendedor
 mail_cocinero
 ```
 
-#Para ver las ordenes realizadas
+# Para ver las ordenes realizadas
 En postman, hay que escribir la dirección
 ```
 http://192.168.8.100:5000/consumer
